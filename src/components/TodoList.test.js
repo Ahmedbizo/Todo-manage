@@ -1,5 +1,5 @@
 import React  from 'react';
-import Enzyme, {shallow} from 'enzyme';
+import Enzyme from 'enzyme';
 import adapter from 'enzyme-adapter-react-16';
 
 
@@ -13,7 +13,6 @@ describe ('TodoList Component', () => {
 
     it ('should render the right List and make editing on it  ', () => {
 
-        <shallow/>
 
     })
 })
