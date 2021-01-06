@@ -14,7 +14,7 @@ describe ('TodoForm Component', () => {
         adapter: new adapter()
     });
 
-    it ('should render the right form  ', () => {
+    it ('should render the right todo   ', () => {
 
         
 
