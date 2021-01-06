@@ -1,11 +1,21 @@
+import React  from 'react';
+import Enzyme, {shallow} from 'enzyme';
+import adapter from 'enzyme-adapter-react-16';
 
 
+describe ('Todo Component', () => {
 
-describe ('Todo omponent', () => {
+
+    
+
+    Enzyme.configure ({
+        adapter: new adapter()
+    });
 
     it ('should render the right way ', () => {
 
-        expect (true).toBe(true);
+        <shallow/>
+
 
     })
 })
